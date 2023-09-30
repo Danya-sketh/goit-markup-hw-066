@@ -30,6 +30,11 @@
             max-width: 768px;
         }
     
+
+        .logo {
+            margin-left: 0px;
+        }
+
         .nav-menu {
             display: flex;
             gap: 40px;
@@ -61,7 +66,10 @@
             padding: 24px 24px 40px 40px;
         }
         
-        
+        .modalll {
+            min-height: 589px;
+            min-width: 400px;
+        }
         
         .nav-menu-link:hover,
         .nav-menu-link:focus,
@@ -119,6 +127,15 @@
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-pad.jpg);
         }
+
+        .about-ul {
+            display: flex-wrap;
+            gap: 24px;
+        }
+
+        .about-li {
+            width: calc((100% - 48px) / 2);
+        }
     
         @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -147,6 +164,8 @@
     }
 
     }
+
+   
     
     @media screen and (min-width: 1158px) {
         .container {
@@ -178,6 +197,12 @@
             background: none;
             border: none;
         }
+
+        .modalll {
+            min-height: 589px;
+            min-width: 400px;
+            top: 39%;
+        }
     
         .address-list {
             display: flex;
@@ -196,7 +221,7 @@
         }
     
         .logo {
-            margin-left: 100px;
+            margin-left: 60px;
         }
     
         .hero-h {
@@ -211,6 +236,10 @@
     display: flex;
     width: 496px;
     text-align: center;
+        }
+
+        .hero {
+            flex-basis: 600px;
         }
         
         .hero-btn {
