@@ -22,7 +22,10 @@
         margin-left: auto;
         background: none;
         border: none;
+
     }
+    
+
 
 }
 
@@ -149,21 +152,15 @@
     }
 
     .about-li {
-        width: calc((100% - 48px) / 2);
+        width: 356px;
         margin-top: 0px;
     }
 
-    .about-list-h {
-        text-align: start;
-    }
+.address-list-h {
+    text-emphasis: center;
+}
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-pad.jpg');
-        }
-    }
+    
 
     .hero-h {
         text-align: center;
@@ -191,7 +188,19 @@
 }
 
 .team-li {
-    width: calc((100% - 48) / 2);
+    width: calc((100% - 24) / 2);
+}
+
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+row-gap: 72px;
+column-gap: 24px;
+}
+
+.portf-img {
+    width: 356px;
 }
 
 .container-footer {
@@ -362,6 +371,31 @@
         width: calc((100% - 72) / 4);
         margin-top: 0px;
     }
+
+    .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 72px;
+        column-gap: 24px;
+        }
+
+        .portf-img {
+            width: 356px;
+        }
+
+        .about-li {
+        width: calc((100% - 48px) / 3);
+        margin-top: 0px;
+    }
+
+        /* .main-container-portf {
+            width: 356px;
+        } */
+
+        .portf-li {
+            width: calc((100% - 48px) / 3);
+        }
     
     .about-list-h {
         font-size: 20px;

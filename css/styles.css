@@ -24,7 +24,7 @@ body {
 }
 
 .main-container-portf {
-    padding: 32px 16px;
+    padding: 10px 16px;
     border: 1px solid var(--portfolio-color);
     border-top: none;
     margin-bottom: 8px;
@@ -1028,7 +1028,6 @@ input::placeholder {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--custom-color);
-
 }
 
 .user-privacy {
@@ -1187,8 +1186,12 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.72px;
 margin-bottom: 72px;
-    margin-top: 120px;
+margin-top: -30px;
     text-align: center;
+}
+
+.portf-img {
+    margin-top: 0px;
 }
 
 .sect-p {
@@ -1205,8 +1208,7 @@ margin-bottom: 72px;
 .portfolio-list {
     display: row;
     justify-content: center;
-    row-gap: 48px;
-    column-gap: 24px;
+    gap: 48px;
     margin-bottom: 72px;
     flex-wrap: wrap;
 }
@@ -1215,6 +1217,11 @@ margin-bottom: 72px;
 
 .portf-li {
     width: 288px;
+    
+}
+
+.portf-img {
+    margin-top: 48px;
 }
 
 .portfolio-btn-list {
