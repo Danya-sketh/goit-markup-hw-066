@@ -8,9 +8,10 @@
     
     
     .mob-menu {
-        display: block;
-        width: 100vw;
-        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
         position: fixed;
         background-color: #FFFFFF;
         z-index: 2;
