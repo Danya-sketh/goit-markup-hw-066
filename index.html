@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
         rel="stylesheet"> -->
-        <link rel=“preconnect” href=“https://fonts.googleapis.com”>
+    <link rel=“preconnect” href=“https://fonts.googleapis.com”>
     <link rel=“preconnect” href=“https://fonts.gstatic.com” crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/media.css">
-    
+
     <title>Document</title>
 </head>
 
@@ -47,17 +48,17 @@
                     </li>
                 </ul>
             </address>
-            
-                            <!-- MOB-MENU -->
-            
-            <button class="menu-open-btn js-open-menu" type="button" >
+
+            <!-- MOB-MENU -->
+
+            <button class="menu-open-btn js-open-menu" type="button">
                 <svg class="vv" width="24" height="24">
                     <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
                 </svg>
             </button>
-            
-            <div class="mob-menu js-menu-container" >
-                <button class="modal-btn js-close-menu" type="button" >
+
+            <div class="mob-menu js-menu-container">
+                <button class="modal-btn js-close-menu" type="button">
                     <svg class="modal-svg-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                     </svg>
@@ -74,7 +75,7 @@
                     <li>
                         <a class="mob-menu-address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    
+
                 </ul>
                 <ul class="mob-menu-media list">
                     <li class="mob-menu-svg-li">
@@ -193,7 +194,7 @@
             </div>
         </section>
 
-        
+
 
         <section class="team">
             <div class="container-divv container">
@@ -363,131 +364,190 @@
                 <ul class="portfolio-list list">
                     <li class="portf-li">
                         <a class="portf-a link" href="">
+                            
+                                <picture>
+                                    <!-- DESKTOP -->
+                                    <source media="(min-width: 1256px)"
+                                        srcset="./images/img-1p-desktop.jpg 1x, ./images/img-1p-desktop@2x.jpg 2x">
+                                    <!-- TABLET -->
+                                    <source media="(min-width: 768px)"
+                                        srcset="./images/img-1p-tablet.jpg 1x, ./images/img-1p-tablet@2x.jpg 2x">
+                                    <!-- MOBILE -->
+                                    <source media="(max-width: 767px)"
+                                        srcset="./images/img-1p.jpg 1x, ./images/img-1p@2x.jpg 2x">
+                                        <div class="img-container">
+                                    <div class="img-text">
+                                        <p>
+                                            14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                            Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                        </p>
+                                    </div>
+                                    <img class="portf-img" src="./images/img-1p.jpg"
+                                        alt="a lot of phones on the purple background" width="288">
+                                    </div>
+                                </picture>
+                            
+                            <div class="main-container-portf">
+                                <h3 class="portfolio-box-title">Banking App</h3>
+                                <p class="sect-p">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portf-li">
+                        <a class="portf-a link" href="">
+                            
                             <picture>
                                 <!-- DESKTOP -->
-                                <source media="(min-width: 1256px)" srcset="./images/img-1p-desktop 1x, ./images/img-1p-desktop@2x 2x">
+                                <source media="(min-width: 1256px)"
+                                    srcset="./images/img-2p-desktop.jpg 1x, ./images/img-2p-desktop@2x.jpg 2x">
                                 <!-- TABLET -->
-                                <source media="(min-width: 768px)" srcset="./images/img-1p-tablet 1x, ./images/img-1p-tablet@2x 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img-2p-tablet.jpg 1x, ./images/img-2p-tablet@2x.jpg 2x">
                                 <!-- MOBILE -->
-                                <source media="(max-width: 767px)" srcset="./images/img-1p.jpg 1x, ./images/img-1p@2x.jpg 2x">
-                                
-                        <img class="portf-img"
-                        
-                        src="./images/img-portf-1.jpg" alt="a lot of phones on the purple background"
-                            width="288">
-                        </picture>
-                        <div class="main-container-portf">
-                            <h3 class="portfolio-box-title">Banking App</h3>
-                            <p class="sect-p">App</p>
-                        </div>
-                    </a>
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/img-2p.jpg 1x, ./images/img-2p@2x.jpg 2x">
+                                    <div class="img-container">
+                                        <div class="img-text">
+                                            <p>
+                                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                            </p>
+                                        </div>
+                                <img class="portf-img" src="./images/img-2p.jpg"
+                                    alt="iphone on the background of the scaner" width="288">
+                                </div>
+                            </picture>
+                            <div class="main-container-portf">
+                                <h3 class="portfolio-box-title">Cashless Payment</h3>
+                                <p class="sect-p">Marketing</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="portf-li">
                         <a class="portf-a link" href="">
+                            
                             <picture>
                                 <!-- DESKTOP -->
-                                <source media="(min-width: 1256px)" srcset="./images/img-2p-desktop 1x, ./images/img-2p-desktop@2x 2x">
+                                <source media="(min-width: 1256px)"
+                                    srcset="./images/img-3p-desktop.jpg 1x, ./images/img-3p-desktop@2x.jpg 2x">
                                 <!-- TABLET -->
-                                <source media="(min-width: 768px)" srcset="./images/img-2p-tablet 1x, ./images/img-2p-tablet@2x 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img-3p-tablet.jpg 1x, ./images/img-3p-tablet@2x.jpg 2x">
                                 <!-- MOBILE -->
-                                <source media="(max-width: 767px)" srcset="./images/img-2p.jpg 1x, ./images/img-2p@2x.jpg 2x">
-
-                        <img class="portf-img"
-                        
-                        src="./images/img-2p.jpg" alt="iphone on the background of the scaner" width="288">
-                    </picture>
-                        <div class="main-container-portf">
-                            <h3 class="portfolio-box-title">Cashless Payment</h3>
-                            <p class="sect-p">Marketing</p>
-                        </div> 
-                    </a>
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/img-3p.jpg 1x, ./images/img-3p@2x.jpg 2x">
+                                    <div class="img-container">
+                                        <div class="img-text">
+                                            <p>
+                                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                            </p>
+                                        </div>
+                                <img class="portf-img" src="./images/img-3p.jpg"
+                                    alt="iphone on the background of the MacBook" width="288">
+                                </div>
+                            </picture>
+                            <div class="main-container-portf">
+                                <h3 class="portfolio-box-title">Meditation App</h3>
+                                <p class="sect-p">App</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="portf-li">
                         <a class="portf-a link" href="">
-                        <picture>
-                            <!-- DESKTOP -->
-                                <source media="(min-width: 1256px)" srcset="./images/img-3p-desktop 1x, ./images/img-3p-desktop@2x 2x">
-                                <!-- TABLET -->
-                                <source media="(min-width: 768px)" srcset="./images/img-3p-tablet 1x, ./images/img-3p-tablet@2x 2x">
-                                <!-- MOBILE -->
-                                <source media="(max-width: 767px)" srcset="./images/img-3p.jpg 1x, ./images/img-3p@2x.jpg 2x">
-
-                        <img class="portf-img"
-                        
-                        src="./images/img-3p.jpg" alt="iphone on the background of the MacBook" width="288">
-                    </picture>
-                        <div class="main-container-portf">
-                            <h3 class="portfolio-box-title">Meditation App</h3>
-                            <p class="sect-p">App</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="portf-li">
-                        <a class="portf-a link" href="">
+                            
                             <picture>
                                 <!-- DESKTOP -->
-                                <source media="(min-width: 1256px)" srcset="./images/img-4p-desktop 1x, ./images/img-4p-desktop@2x 2x">
+                                <source media="(min-width: 1256px)"
+                                    srcset="./images/img-4p-desktop.jpg 1x, ./images/img-4p-desktop@2x.jpg 2x">
                                 <!-- TABLET -->
-                                <source media="(min-width: 768px)" srcset="./images/img-4p-tablet 1x, ./images/img-4p-tablet@2x 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img-4p-tablet.jpg 1x, ./images/img-4p-tablet@2x.jpg 2x">
                                 <!-- MOBILE -->
-                                <source media="(max-width: 767px)" srcset="./images/img-4p.jpg 1x, ./images/img-4p@2x.jpg 2x">
-
-                        <img class="portf-img" 
-                        
-                        src="./images/img-4p.jpg" alt="taxi salon" class="sect-2-img" width="288">
-                        </picture>
-                        <div class="main-container-portf">
-                            <h3 class="portfolio-box-title">Taxi Service</h3>
-                            <p class="sect-p">Marketing</p>
-                        </div>
-                    </a>
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/img-4p.jpg 1x, ./images/img-4p@2x.jpg 2x">
+                                    <div class="img-container">
+                                        <div class="img-text">
+                                            <p>
+                                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                            </p>
+                                        </div>
+                                <img class="portf-img" src="./images/img-4p.jpg" alt="taxi salon" 
+                                    width="288">
+                                </div>
+                            </picture>
+                            <div class="main-container-portf">
+                                <h3 class="portfolio-box-title">Taxi Service</h3>
+                                <p class="sect-p">Marketing</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="portf-li">
                         <a class="portf-a link" href="">
-                            <picture>
-                            <!-- DESKTOP -->
-                                <source media="(min-width: 1256px)" srcset="./images/img-5p-desktop 1x, ./images/img-5p-desktop@2x 2x">
-                                <!-- TABLET -->
-                                <source media="(min-width: 768px)" srcset="./images/img-5p-tablet 1x, ./images/img-5p-tablet@2x 2x ">
-                                <!-- MOBILE -->
-                                <source media="(max-width: 767px)" srcset="./images/img-5p.jpg 1x, ./images/img-5p@2x.jpg 2x">
-
-                        <img class="portf-img" 
-                        
-                        src="./images/img-5p.jpg" alt="purple phones" width="288">
-                    </picture>
-                        <div class="main-container-portf">
-                            <h3 class="portfolio-box-title">Screen Illustrations</h3>
-                            <p class="sect-p">Design</p>
-                        </div>
-                    </a>
-                    </li>
-                    <li class="portf-li">
-                        <a class="portf-a link" href="">
+                            
                             <picture>
                                 <!-- DESKTOP -->
-                                <source media="(min-width: 1256px)" srcset="./images/img-6p-desktop 1x, ./images/img-6p-desktop@2x 2x">
+                                <source media="(min-width: 1256px)"
+                                    srcset="./images/img-5p-desktop.jpg 1x, ./images/img-5p-desktop@2x.jpg 2x">
                                 <!-- TABLET -->
-                                <source media="(min-width: 768px)" srcset="./images/img-6p-tablet 1x, ./images/img-6p-tablet@2x 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img-5p-tablet.jpg 1x, ./images/img-5p-tablet@2x.jpg 2x ">
                                 <!-- MOBILE -->
-                                <source media="(max-width: 767px)" srcset="./images/img-6p.jpg 1x, ./images/img-6p@2x.jpg 2x">
-
-                        <img class="portf-img" 
-                        
-                        src="./images/img-6p.jpg" alt="women in a yellow blouse" width="288">
-                    </picture>
-                        <div class="main-container-portf">
-                            <h3 class="portfolio-box-title">Online Courses</h3>
-                            <p class="sect-p">Marketing</p>
-                        </div>
-                    </a>
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/img-5p.jpg 1x, ./images/img-5p@2x.jpg 2x">
+                                    <div class="img-container">
+                                        <div class="img-text">
+                                            <p>
+                                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                            </p>
+                                        </div>
+                                <img class="portf-img" src="./images/img-5p.jpg" alt="purple phones" width="288">
+                            </div>
+                            </picture>
+                            <div class="main-container-portf">
+                                <h3 class="portfolio-box-title">Screen Illustrations</h3>
+                                <p class="sect-p">Design</p>
+                            </div>
+                        </a>
                     </li>
-    </ul>
-</div>
-</section>
-</main>
+                    <li class="portf-li">
+                        <a class="portf-a link" href="">
+                            
+                            <picture>
+                                <!-- DESKTOP -->
+                                <source media="(min-width: 1256px)"
+                                    srcset="./images/img-6p-desktop.jpg 1x, ./images/img-6p-desktop@2x.jpg 2x">
+                                <!-- TABLET -->
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img-6p-tablet.jpg 1x, ./images/img-6p-tablet@2x.jpg 2x">
+                                <!-- MOBILE -->
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/img-6p.jpg 1x, ./images/img-6p@2x.jpg 2x">
+                                    <div class="img-container">
+                                        <div class="img-text">
+                                            <p>
+                                                14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+                                                Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                            </p>
+                                        </div>
+                                <img class="portf-img" src="./images/img-6p.jpg" alt="women in a yellow blouse"
+                                    width="288">
+                                </div>
+                            </picture>
+                            <div class="main-container-portf">
+                                <h3 class="portfolio-box-title">Online Courses</h3>
+                                <p class="sect-p">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-    
+
     <footer class="footer">
         <div class="container-footer container">
             <div class="footer-div">
@@ -533,91 +593,91 @@
             </div>
             <div class="sub-info">
                 <p class="sub-text">
-                Subscribe
+                    Subscribe
                 </p>
                 <form class="sub-form">
                     <label class="sub-label">
                         <input class="footer-input" name="downloud" type="email" placeholder="E-mail">
                     </label>
-                    <button class="sub-btn" type="submit">Subscribe <svg class="footer-sub-svg" width="24"
-                        height="24">
-                        <use href="./images/icons.svg#icon-Frame-3"></use>
-                    </svg></button>
+                    <button class="sub-btn" type="submit">Subscribe <svg class="footer-sub-svg" width="24" height="24">
+                            <use href="./images/icons.svg#icon-Frame-3"></use>
+                        </svg></button>
                 </form>
-                </div>
+            </div>
         </div>
     </footer>
 
 
-                <!-- MODAL -->
-                <div class="backdrop" data-modal="">
-                    <div class="modalll">
-                        <button class="modal-btn" type="button" data-modal-close="">
-                            <svg class="modal-svg-close" width="8" height="8">
-                                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-                            </svg>
-            
-                        </button>
-                        <p class="modal-legend">Leave your contacts and we will call you back</p>
+    <!-- MODAL -->
+    <div class="backdrop" data-modal="">
+        <div class="modalll">
+            <button class="modal-btn" type="button" data-modal-close="">
+                <svg class="modal-svg-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+
+            </button>
+            <p class="modal-legend">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <div class="modal-form-div">
                     <label class="modal-label" for="user-name">Name</label>
                     <div class="input-container-name">
-                    <input class="modal-name-input" id="user-name" name="user-name" type="text">
-                    <svg class="svg-person" width="18" height="24">
-                        <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-                    </svg>
+                        <input class="modal-name-input" id="user-name" name="user-name" type="text">
+                        <svg class="svg-person" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-            <div class="modal-form-div">
-            <label class="modal-label" for="user-phone">Phone</label>
-                <div class="input-container-name">
-                <input class="modal-name-input" id="user-phone" name="user-name" type="text">
-                <svg class="svg-person" width="18" height="24">
-                    <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-                </svg>
-            </div>
-            </div>
-            <div class="modal-form-div">
-            <label class="modal-label" for="user-email">Email</label>
-                <div class="input-container-name">
-                <input class="modal-name-input" id="user-email" name="user-name"  type="text">
-                <svg class="svg-person" width="18" height="24">
-                    <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-                </svg>
-            </div>
-            </div>
-            <div class="comment-container">
-                <label class="modal-label" for="user-comment">Comment</label>
-                <textarea class="text-input-area" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
-            </div>
+                <div class="modal-form-div">
+                    <label class="modal-label" for="user-phone">Phone</label>
+                    <div class="input-container-name">
+                        <input class="modal-name-input" id="user-phone" name="user-name" type="text">
+                        <svg class="svg-person" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-form-div">
+                    <label class="modal-label" for="user-email">Email</label>
+                    <div class="input-container-name">
+                        <input class="modal-name-input" id="user-email" name="user-name" type="text">
+                        <svg class="svg-person" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="comment-container">
+                    <label class="modal-label" for="user-comment">Comment</label>
+                    <textarea class="text-input-area" name="user-comment" id="user-comment"
+                        placeholder="Text input"></textarea>
+                </div>
                 <div class="check-box-container">
-                    <input class="privacy visually-hidden"  name="user-privacy" value="true" id="user-privacy" type="checkbox">
+                    <input class="privacy visually-hidden" name="user-privacy" value="true" id="user-privacy"
+                        type="checkbox">
                     <label class="privacy-label" for="user-privacy">
                         <span class="user-privacy">
                             <svg width="10" height="8" class="privacy-box">
                                 <use href="./images/icons.svg#icon-Checkbox"></use>
                             </svg>
-                            
+
                         </span>
-                        I accept the terms and conditions of the <a class="privacy-link" href="">Privacy Policy</a></label>
-                    
+                        I accept the terms and conditions of the <a class="privacy-link" href="">Privacy
+                            Policy</a></label>
+
                 </div>
                 <button class="submit" type="submit">
-            Send
+                    Send
                 </button>
-            
-            
-            </form>
-            </div>
-            </div>
-            
-                    
-            
-                <script src="./js/modal.js"></script>
-                <script src="./js/mobile-menu.js"></script>
-        </body>
-                            </html>
 
-    
-    
+
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>
