@@ -437,6 +437,7 @@ letter-spacing: 0.72px;
     height: 112px;
     order: 0;
     flex-grow: 0;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 }
 
 .about-ul-svg {
